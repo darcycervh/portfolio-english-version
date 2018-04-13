@@ -1,0 +1,164 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Fuentes de tipografías:
+texto normal: Electrolize,
+título: Press Start 2P,
+texto: Open Sans
+*/
+/* Imagen de fondo para el body */
+.background-image{
+  background-image: url(../assets/images/comando.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: auto;
+  height: 100vh;
+}
+/* Caja que contiene texto de la presentación */
+.div-center{
+  width: 100%;
+  height: 45%;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.text{
+  font-family: 'Electrolize', sans-serif;
+  font-size: 1em;
+}
+.text-xs{
+  font-size: 0.7em;
+}
+.text-title{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2em;
+  text-shadow: #00071d 1px 1px,#00071d 2px 2px,#00071d 3px 3px,#00071d 4px 4px,#00071d 5px 5px,#00071d 6px 6px,#00071d 7px 7px,#00071d 8px 8px,#00071d 9px 9px,#00071d 10px 10px,#00071d 11px 11px,#00071d 12px 12px,#00071d 13px 13px,#00071d 14px 14px,#00071d 15px 15px,#00071d 16px 16px,#00071d 17px 17px,#00071d 18px 18px,#00071d 19px 19px,#00071d 20px 20px,#00071d 21px 21px;  
+}
+.text-subtitle{
+  font-family: 'Electrolize', sans-serif;
+  font-size: 1.3em;
+  text-shadow: #00071d 1px 1px
+}
+/***/
+#span-start-portfolio{
+  animation: span infinite 2s;
+}
+@keyframes span{
+  30%{
+    background-color:rgb(255, 153, 70);
+  }
+  90%{
+    content: 'Para comenzar, haz click en uno de los botones';
+    background-color: rgb(239, 115, 255);
+  }
+}
+
+/*  button tipo game  */
+.center{
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.center2{
+  position: absolute;
+  bottom: 10%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+.center3{
+  position: absolute;
+  bottom: 10%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+.center4{
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.center a{
+  display: inherit;
+  width: 180px;
+  height: 50px;
+  color: #262626;
+  font-size: 20px;
+  background: #ffff;
+  text-align: center;
+  line-height: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 2px solid #262626;
+  transition: .5s;
+  transform: skew(15deg);
+}
+.center a:hover{
+  background: rgb(24, 134, 197);
+  color: #ffff;
+}
+.center2 a:hover{
+  background: rgb(197, 24, 125);
+  color: #ffff;
+}
+.center3 a:hover{
+  background: rgb(255, 102, 0);
+  color: #ffff;
+}
+.box1, .box2{
+  position: absolute;
+  background: #efefef;
+  border: 2px solid #262626;
+}
+.box1{
+  width: 15px;
+  height: 109%;
+  top: 6px;
+  left: -16px;
+  transform: skewY(-45deg);
+  z-index: 1;
+}
+.box2{
+  width: 108%;
+  height: 40%;
+  bottom: -18px;
+  right: 0px;
+  transform: skewY(-180deg);
+}
+/*haciendolo mobile friendly*/
+@media (min-width:650px){
+  .text{
+    font-size: 1.2em;
+  }
+  .text-title{
+    font-size: 2.3em;
+  }
+  .text-subtitle{
+    font-size: 1.3em;
+  }
+}
+@media (min-width:1036px){
+  .text{
+    font-size: 1.3em;
+  }
+  .text-title{
+    font-size: 3em;
+  }
+  .text-subtitle{
+    font-size: 1.5em;
+  }
+}
+@media (min-width:1248px){
+  .text{
+    font-size: 1.5em;
+  }
+  .text-title{
+    font-size: 3.5em;
+  }
+  .text-subtitle{
+    font-size: 1.9em;
+  }
+}

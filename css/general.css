@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.div-rgba{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(34, 7, 42, .72);
+}
+.div-box1{
+  width: 95%;
+  height: 90%;
+  margin: auto;
+  border: 3px solid #004E9F;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 5vh;
+  background-color: rgba(26, 26, 26, .48);
+}
+.div-box2{
+  width: 93%;
+  height: 86%;
+  margin: auto;
+  border: 3px solid #004E9F;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 4vh;
+}
+.text-btn{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.7em !important;
+}
+.btn-box{
+  top: 1.5rem;
+  left: 2.5rem;
+}
+.btn-box1:focus, .btn-box2:focus, .btn-box3:focus{
+  outline: none;
+}
+.btn-box1{
+  background-color: #1886C5;
+  border: none;
+  cursor: pointer;
+}
+.btn-box1:hover, .btn-box1:active{
+  background-color: #002A42;
+}
+.btn-box2{
+  left: 13.3rem;
+  background-color: #C5187D;
+  border: none;
+  cursor: pointer;
+}
+.btn-box2:hover, .btn-box2:active{
+  background-color: #7D0149;
+}
+.btn-box3{
+  left: 22.7rem;
+  background-color: #FF6600;
+  border: none;
+  cursor: pointer;
+}
+.btn-box3:hover, .btn-box3:active{
+  background-color: #5E2702;
+}/*
+@media (max-width:693px){
+  .btn-box{
+    font-size: 0.7em !important;
+  }
+  .btn-box1{
+    left: 2.9rem;
+  }
+  .btn-box2{
+    left: 13.6rem;
+  }
+  .btn-box3{
+    left: 22.8rem;
+  }
+}
+@media (max-width:360px) {
+  .btn-box{
+    font-size: 0.4em !important;
+    padding: 1em !important;
+  }
+  .btn-box1{
+    left: 1.7rem;
+  }
+  .btn-box2{
+    left: 7.8rem;
+  }
+  .btn-box3{
+    left: 13rem;
+  }
+}*/
